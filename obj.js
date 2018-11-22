@@ -1,5 +1,4 @@
-console.log(web3); // {eth: .., shh: ...} // it's here!
-
+console.log(web3); 
 
 if (typeof web3 !== 'undefined') {
     web3 = new Web3(web3.currentProvider);
