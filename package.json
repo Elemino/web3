@@ -1,0 +1,23 @@
+{
+  "name": "web3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "obj.js",
+  "dependencies": {
+    "web3": "^1.0.0-beta.36"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elemino/web3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elemino/web3/issues"
+  },
+  "homepage": "https://github.com/Elemino/web3#readme"
+}
