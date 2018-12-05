@@ -4,6 +4,7 @@
   "description": "",
   "main": "obj.js",
   "dependencies": {
+    "ethers": "^4.0.17",
     "web3": "^1.0.0-beta.36"
   },
   "devDependencies": {},
