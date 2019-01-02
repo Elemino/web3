@@ -1,24 +1,25 @@
 {
-  "name": "web3",
-  "version": "1.0.0",
-  "description": "",
-  "main": "obj.js",
+  "name": "simpledapp",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "ethers": "^4.0.17",
-    "web3": "^1.0.0-beta.36"
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-scripts": "2.1.2"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Elemino/web3.git"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Elemino/web3/issues"
-  },
-  "homepage": "https://github.com/Elemino/web3#readme"
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
